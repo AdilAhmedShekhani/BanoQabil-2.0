@@ -17,7 +17,7 @@ Its a tutorial for Webdevelopment classes.
 
 Books and Resources for the course:
 
-- [HTML AND CSS Book](https://drive.google.com/file/d/1sqBCqMaBSvRHlB01bW13KbdPjAZjZnri/view?usp=share_link)
+- [HTML AND CSS Book](https://github.com/AdilAhmedShekhani/BanoQabil-2.0/blob/main/HTML%20AND%20CSS%20BOOK.pdf)
 - W3Schools - [HTML](https://www.w3schools.com/html/)
 - Code Academy - [HTML](https://www.codecademy.com/learn/learn-html)
 
