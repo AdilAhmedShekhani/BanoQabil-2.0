@@ -1,26 +1,21 @@
-# WebDevelopment Classes for Beginners - Tutorial
+# Practice Questions
 
-Its a tutorial for Webdevelopment classes.
+This repository contains practice questions for learning HTML tags, specifically focusing on `<img>` (image tag) and `<table>` (table tag).
 
-## Suggested Extensions for VSCode
+## Image and Table Tag Practice
 
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
-- [HTML Snippets](https://marketplace.visualstudio.com/items?itemName=abusaidm.html-snippets)
-- [HTML Boilerplate](https://marketplace.visualstudio.com/items?itemName=sidthesloth.html5-boilerplate)
-- [Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+1. **Add an Image:**
+   - Use the `<img>` tag to add an image to your HTML page.
+   - Make sure to set the `src` attribute to the URL of the image.
 
----
+   ```html
+   <img src="url_to_your_image.jpg" alt="Description of the image">
+   
+2. **Use of Table:**
+   - Use the `<table>` tag to create table to your HTML page.
+   - Make sure to use proper Attributes of table.
 
-Books and Resources for the course:
 
-- [HTML AND CSS Book](https://github.com/AdilAhmedShekhani/BanoQabil-2.0/blob/main/HTML%20AND%20CSS%20BOOK.pdf)
-- W3Schools - [HTML](https://www.w3schools.com/html/)
-- Code Academy - [HTML](https://www.codecademy.com/learn/learn-html)
+<img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpIiYR5R.png" alt="Chess Game" width="400">
+<img src="https://i.ytimg.com/vi/OqlKpJqfFB8/hqdefault.jpg" alt="Chess Game">
 
----
-
-Made with ❤️ By [Adil Ahmed Shekhani](https://www.linkedin.com/in/adilahmedshekhani/)
