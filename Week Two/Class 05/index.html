@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TEXT INPUT -->
+    <form action="http://www.example.com/login.php">
+      <p>
+        Username:
+        <input type="text" name="username" size="15" maxlength="30" />
+      </p>
+    </form>
+
+    <!-- PASSWORD INPUT -->
+    <form action="http://www.example.com/login.php">
+      <p>
+        Username:
+        <input type="text" name="username" size="15" maxlength="30" />
+      </p>
+      <p>
+        Password:
+        <input type="password" name="password" size="15" maxlength="30" />
+      </p>
+    </form>
+
+    <!-- TEXT AREA  -->
+    <form action="http://www.example.com/comments.php">
+      <p>What did you think of this gig?</p>
+      <textarea name="comments" cols="20" rows="4">
+Enter 
+         your comments...</textarea
+      >
+    </form>
+
+    <!-- RADIO BUTTON  -->
+    <form action="http://www.example.com/profile.php">
+      <p>
+        Please select your gender:
+        <br />
+        <input type="radio" name="genre" value="male" checked="checked" /> Male
+        <input type="radio" name="genre" value="female" />
+        Female
+        <input type="radio" name="genre" value="others" />
+        Others
+      </p>
+    </form>
+
+    <!-- CHECKBOX  -->
+    <form action="http://www.example.com/profile.php">
+      <p>
+        Please select your favorite subject(s):
+        <br />
+        <input type="checkbox" name="urdu" value="urdu" checked="checked" />
+        Urdu <input type="checkbox" name="english" value="english" /> English
+        <input type="checkbox" name="maths" value="maths" /> Maths
+      </p>
+    </form>
+
+    <!-- Drop Down List Box  -->
+    <form action="http://www.example.com/profile.php">
+      <p>Please Select City Of Sindh :</p>
+      <select id="city" name="city" class="form-select">
+        <option value="">Select City</option>
+        <option value="Adilpur">Adilpur</option>
+        <option value="Badin">Badin</option>
+        <option value="Bagarji">Bagarji</option>
+        <option value="Bandhi">Bandhi</option>
+        <option value="Berani">Berani</option>
+        <option value="Bhan">Bhan</option>
+        <option value="Bhiria">Bhiria</option>
+        <option value="Bhit Shah">Bhit Shah</option>
+        <option value="Bozdar Wada">Bozdar Wada</option>
+        <option value="Bulri">Bulri</option>
+        <option value="Chak">Chak</option>
+        <option value="Chamber">Chamber</option>
+        <option value="Chhor">Chhor</option>
+        <option value="Chuhar Jamali">Chuhar Jamali</option>
+        <option value="Dadu">Dadu</option>
+        <option value="Daromehar">Daromehar</option>
+        <option value="Darya Khan Marri">Darya Khan Marri</option>
+        <option value="Daulatpur">Daulatpur</option>
+        <option value="Daur">Daur</option>
+        <option value="Dhoro Naro">Dhoro Naro</option>
+        <option value="Digri">Digri</option>
+        <option value="Diplo">Diplo</option>
+        <option value="Dokri">Dokri</option>
+        <option value="Gambat">Gambat</option>
+        <option value="Garhiyasin">Garhiyasin</option>
+        <option value="Gharo">Gharo</option>
+        <option value="Ghauspur">Ghauspur</option>
+        <option value="Ghotki">Ghotki</option>
+        <option value="Goth Garelo">Goth Garelo</option>
+        <option value="Goth Phulji">Goth Phulji</option>
+        <option value="Goth Radhan">Goth Radhan</option>
+        <option value="Hala">Hala</option>
+        <option value="Hingorja">Hingorja</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Islamkot">Islamkot</option>
+        <option value="Jacobabad">Jacobabad</option>
+        <option value="Jām Sāhib">Jām Sāhib</option>
+        <option value="Jamshoro">Jamshoro</option>
+        <option value="Jati">Jati</option>
+        <option value="Jhol">Jhol</option>
+        <option value="Johi">Johi</option>
+        <option value="Kadhan">Kadhan</option>
+        <option value="Kambar">Kambar</option>
+        <option value="Kandhkot">Kandhkot</option>
+        <option value="Kandiari">Kandiari</option>
+        <option value="Kandiaro">Kandiaro</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Karaundi">Karaundi</option>
+        <option value="Kario Ghanwar">Kario Ghanwar</option>
+        <option value="Kashmor">Kashmor</option>
+        <option value="Keti Bandar">Keti Bandar</option>
+        <option value="Khadro">Khadro</option>
+        <option value="Khairpur">Khairpur</option>
+        <option value="Khairpur Mir’s">Khairpur Mir’s</option>
+        <option value="Khairpur Nathan Shah">Khairpur Nathan Shah</option>
+        <option value="Khanpur Mahar">Khanpur Mahar</option>
+        <option value="Kot Diji">Kot Diji</option>
+        <option value="Kotri">Kotri</option>
+        <option value="Kunri">Kunri</option>
+        <option value="Lakhi">Lakhi</option>
+        <option value="Larkana">Larkana</option>
+        <option value="Madeji">Madeji</option>
+        <option value="Malir Cantonment">Malir Cantonment</option>
+        <option value="Matiari">Matiari</option>
+        <option value="Matli">Matli</option>
+        <option value="Mehar">Mehar</option>
+        <option value="Miro Khan">Miro Khan</option>
+        <option value="Mirpur Bhtoro">Mirpur Bhtoro</option>
+        <option value="Mirpur Khas">Mirpur Khas</option>
+        <option value="Mirpur Mathelo">Mirpur Mathelo</option>
+        <option value="Mirpur Sakro">Mirpur Sakro</option>
+        <option value="Mirwah Gorchani">Mirwah Gorchani</option>
+        <option value="Mithi">Mithi</option>
+        <option value="Moro">Moro</option>
+        <option value="Nabisar">Nabisar</option>
+        <option value="Nasirabad">Nasirabad</option>
+        <option value="Naudero">Naudero</option>
+        <option value="Naukot">Naukot</option>
+        <option value="Naushahro Firoz">Naushahro Firoz</option>
+        <option value="Nawabshah">Nawabshah</option>
+        <option value="New Bādāh">New Bādāh</option>
+        <option value="Pad Idan">Pad Idan</option>
+        <option value="Pano Aqil">Pano Aqil</option>
+        <option value="Pir Jo Goth">Pir Jo Goth</option>
+        <option value="Pithoro">Pithoro</option>
+        <option value="Rajo Khanani">Rajo Khanani</option>
+        <option value="Ranipur">Ranipur</option>
+        <option value="Ratodero">Ratodero</option>
+        <option value="Rohri">Rohri</option>
+        <option value="Rustam">Rustam</option>
+        <option value="Sakrand">Sakrand</option>
+        <option value="Samaro">Samaro</option>
+        <option value="Sanghar">Sanghar</option>
+        <option value="Sann">Sann</option>
+        <option value="Sehwan">Sehwan</option>
+        <option value="Setharja Old">Setharja Old</option>
+        <option value="Shahdad Kot">Shahdad Kot</option>
+        <option value="Shahdadpur">Shahdadpur</option>
+        <option value="Shahpur Chakar">Shahpur Chakar</option>
+        <option value="Shikarpur">Shikarpur</option>
+        <option value="Sinjhoro">Sinjhoro</option>
+        <option value="Sīta Road">Sīta Road</option>
+        <option value="Sobhodero">Sobhodero</option>
+        <option value="Sukkur">Sukkur</option>
+        <option value="Talhar">Talhar</option>
+        <option value="Tando Adam">Tando Adam</option>
+        <option value="Tando Allahyar">Tando Allahyar</option>
+        <option value="Tando Bago">Tando Bago</option>
+        <option value="Tando Jam">Tando Jam</option>
+        <option value="Tando Mitha Khan">Tando Mitha Khan</option>
+        <option value="Tando Muhammad Khan">Tando Muhammad Khan</option>
+        <option value="Tangwani">Tangwani</option>
+        <option value="Tharu Shah">Tharu Shah</option>
+        <option value="Thatta">Thatta</option>
+        <option value="Thul">Thul</option>
+        <option value="Ubauro">Ubauro</option>
+        <option value="Umarkot">Umarkot</option>
+        <option value="Umerkot District">Umerkot District</option>
+        <option value="Warah">Warah</option>
+      </select>
+    </form>
+
+    <!-- MULTIPLE SELECT BOX -->
+
+    <form action="http://www.example.com/profile.php">
+      <p>
+        Do you play any of the following instruments? (You can select more than
+        one option by holding down control on a PC or command key on a Mac while
+        selecting different options.)
+      </p>
+      <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar" selected="selected">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard" selected="selected">Keyboard</option>
+        <option value="bass">Bass</option>
+      </select>
+    </form>
+
+    <!-- FILE UPLOAD (FILE INPUT BOX)  -->
+
+    <form action="http://www.example.com/upload.php" method="post">
+      <p>Upload your Resume:</p>
+      <input type="file" name="user-song" /><br />
+      <br />
+      <input type="submit" value="Upload" />
+    </form>
+
+    <!-- SUBMIT BUTTON  -->
+    <form action="http://www.example.com/subscribe.php">
+      <p>Subscribe to our email list:</p>
+      <input type="text" name="email" />
+      <input type="submit" name="subscribe" value="Subscribe" />
+    </form>
+
+    <!-- IMAGE BUTTON  -->
+
+    <form action="http://www.example.org/subscribe.php">
+      <p>Subscribe to our email list:</p>
+      <input type="text" name="email" /> <br />
+      <br />
+      <input
+        type="image"
+        src="./Images/subscribe.png"
+        width="130"
+        height="60"
+      />
+    </form>
+
+    <!-- BUTTON & HIDDEN CONTROLS  -->
+    <form action="http://www.example.com/add.php">
+      <button>
+        <img src="images/add.gif" alt="add" width="100" height="50" /> Add
+      </button>
+      <input type="hidden" name="bookmark" value="lyrics" />
+    </form>
+
+    <!-- LABELLING FORM CONTROLS  -->
+    <label>Age: <input type="text" name="age" /></label>
+    <br />
+    Gender:
+    <input id="female" type="radio" name="gender" value="f" />
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m" />
+    <label for="male">Male</label>
+
+    <!-- GROUPING FORM ELEMENTS  -->
+    <fieldset>
+      <legend>Contact details</legend>
+      <label
+        >Email:<br />
+        <input type="text" name="email" /></label
+      ><br />
+      <label
+        >Mobile:<br />
+        <input type="text" name="mobile" /></label
+      ><br />
+      <label
+        >Telephone:<br />
+        <input type="text" name="telephone"
+      /></label>
+    </fieldset>
+    <br /><br /><br /><br /><br />
+
+    <!-- Form Validation -->
+    <form action="http://www.example.com/login/" method="post">
+      <label for="username">Username: </label>
+      <input type="text" name="username" required="required" />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" name="password" required="required" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br /><br /><br /><br />
+
+    <!-- DATE INPUT -->
+    <form action="http://www.example.com/bookings/" method="post">
+      <label for="username">Departure date:</label>
+      <input type="date" name="depart" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br /><br /><br /><br />
+
+    <!-- EMAIL AND URL INPUT  -->
+    <form action="http://www.example.org/subscribe.php">
+      <p>Please enter your email address:</p>
+      <input type="email" name="email" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <form action="http://www.example.org/profile.php">
+      <p>Please enter your website address:</p>
+      <input type="url" name="website" />
+      <input type="submit" value="Submit" />
+    </form>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- SEARCH INPUT  -->
+    <form action="http://www.example.org/search.php">
+      <p>Search:</p>
+      <input type="search" name="search" />
+      <input type="submit" value="Search" />
+    </form>
+
+    <form action="http://www.example.org/search.php">
+      <p>Search:</p>
+      <input type="search" name="search" placeholder="Enter keyword" />
+      <input type="submit" value="Search" />
+    </form>
+  </body>
+</html>
