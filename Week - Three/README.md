@@ -12,3 +12,9 @@ This repository contains practice questions for learning HTML tags, specifically
 2. **Use of Video:**
    - Use the `<video>` tag to Video to your HTML page.
    - Make sure to use proper Attributes of video.
+
+3. **Make 02 HTML Landing Page**
+   - Use the all Html tag to create your Landing/Home page.
+   - Also add forms include all tags.
+   - Add proper Audio and Video Tags in your Linked Page.
+   - Make sure to use proper Attributes of Tags.
