@@ -1,4 +1,4 @@
-# Practice Questions
+# Practice
 
 This repository contains practice questions for learning HTML tags, specifically focusing on `<Audio>` (Audio tag) and `<Video>` (video tag).
 
