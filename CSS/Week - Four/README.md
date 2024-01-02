@@ -1,4 +1,4 @@
-## Week 3 -- Beauty is CSS - Basic CSS
+## Beauty is CSS - Basic CSS
 
 - What is CSS
   - The relationship between HTML & CSS
