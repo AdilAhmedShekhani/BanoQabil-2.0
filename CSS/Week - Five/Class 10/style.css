@@ -1,0 +1,200 @@
+/* BULLET POINT STYLES */
+ol {
+  list-style-type: lower-roman;
+}
+
+/* Images For Bullet  */
+ul {
+  list-style-image: url("images/star.png");
+}
+li {
+  margin: 10px 0px 0px 0px;
+}
+
+/* POSITION THE MARKER */
+
+ul {
+  width: 150px;
+}
+li {
+  margin: 10px;
+}
+ul.illuminations {
+  list-style-position: outside;
+}
+ul.season {
+  list-style-position: inside;
+}
+
+/* LIST SHORTHAND */
+ul {
+  list-style: inside circle;
+  width: 300px;
+}
+li {
+  margin: 10px 0px 0px 0px;
+}
+
+/* TABLE PROPERTIES */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  color: #111111;
+}
+table {
+  width: 600px;
+}
+th,
+td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px solid #111111;
+  border-top: 1px solid #999;
+  text-align: left;
+}
+tr.even {
+  background-color: #efefef;
+}
+tr:hover {
+  background-color: #c3e6e5;
+}
+.money {
+  text-align: right;
+}
+
+/* BORDER ON EMPTY CELL */
+
+td {
+  border: 1px solid #0088dd;
+  padding: 15px;
+}
+table.one {
+  empty-cells: show;
+}
+table.two {
+  empty-cells: hide;
+}
+
+/* GAP BETWEEN CELLS */
+td {
+  background-color: #0088dd;
+  padding: 15px;
+  border: 2px solid #000000;
+}
+table.one {
+  border-spacing: 5px 15px;
+}
+table.two {
+  border-collapse: collapse;
+}
+
+/*  ----- ------- STYLING TEXT INPUT --------------- */
+
+input {
+  font-size: 120%;
+  color: #5a5854;
+  background-color: #f2f2f2;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 30px;
+  background-repeat: no-repeat;
+  background-position: 8px 9px;
+  display: block;
+  margin-bottom: 10px;
+}
+input:focus {
+  background-color: #ffffff;
+  border: 1px solid #b1e1e4;
+}
+input#email {
+  background-image: url("images/email.png");
+}
+input#twitter {
+  background-image: url("images/twitter.png");
+}
+input#web {
+  background-image: url("images/web.png");
+}
+
+/* ---------- STYLING OF SUBMIT BUTTON ------------- */
+
+input#submit {
+  color: #444444;
+  text-shadow: 0px 1px 1px #ffffff;
+  border-bottom: 2px solid #b2b2b2;
+  background-color: #b9e4e3;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#beeae9),
+    to(#a8cfce)
+  );
+  background: -moz-linear-gradient(top, #beeae9, #a8cfce);
+  background: -o-linear-gradient(top, #beeae9, #a8cfce);
+  background: -ms-linear-gradient(top, #beeae9, #a8cfce);
+}
+input#submit:hover {
+  color: #333333;
+  border: 1px solid #a4a4a4;
+  border-top: 2px solid #b2b2b2;
+  background-color: #a0dbc4;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a8cfce),
+    to(#beeae9)
+  );
+  background: -moz-linear-gradient(top, #a8cfce, #beeae9);
+  background: -o-linear-gradient(top, #a8cfce, #beeae9);
+  background: -ms-linear-gradient(top, #a8cfce, #beeae9);
+}
+
+/*  STYLING FIELDSET AND LEGENDS */
+
+fieldset {
+  width: 350px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: right;
+}
+legend {
+  background-color: #efefef;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* ----------- ALIGNING FORMS ------------ */
+
+div {
+  border-bottom: 1px solid #efefef;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+}
+.title {
+  float: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+.radio-buttons label {
+  float: none;
+}
+.submit {
+  text-align: right;
+}
+
+/* CURSOR STYLE */
+
+a {
+  cursor: move;
+}

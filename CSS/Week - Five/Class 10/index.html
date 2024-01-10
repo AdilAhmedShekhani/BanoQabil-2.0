@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- BULLETS POINT STYLES -->
+    <h1>The Complete Poems</h1>
+    <h2>Emily Dickinson</h2>
+    <ol>
+      <li>Life</li>
+      <li>Nature</li>
+      <li>Love</li>
+      <li>Time and Eternity</li>
+      <li>The Single Hound</li>
+    </ol>
+
+    <!-- IMAGES FOR BULLETS -->
+    <h1>Index of Translated Poems</h1>
+    <h2>Arthur Rimbaud</h2>
+    <ul>
+      <li>Ophelia</li>
+      <li>To Music</li>
+      <li>A Dream for Winter</li>
+      <li>Vowels</li>
+      <li>The Drunken Boat</li>
+    </ul>
+
+    <!-- POSITIONING THE MARKER -->
+
+    <ul class="illuminations">
+      <li>That idol, black eyes and ...</li>
+      <li>Gracious son of Pan! ...</li>
+      <li>When the world is reduced ...</li>
+    </ul>
+    <ul class="season">
+      <li>Once, if my memory serves ...</li>
+      <li>Hadn't I once a youth ...</li>
+      <li>Autumn already! ...</li>
+    </ul>
+
+    <!-- LIST SHORTHAND -->
+    <h1>Quotes from Edgar Allan Poe</h1>
+    <ul>
+      <li>I have great faith in fools; self-confidence my friends call it.</li>
+      <li>All that we see or seem is but a dream within a dream.</li>
+      <li>
+        I would define, in brief, the poetry of words as the rhythmical creation
+        of Beauty.
+      </li>
+    </ul>
+
+    <!-- TABLE PROPERTIES -->
+    <h1>First Edition Auctions</h1>
+    <table>
+      <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th class="money">Reserve Price</th>
+        <th class="money">Current Bid</th>
+      </tr>
+      <tr>
+        <td>E.E. Cummings</td>
+        <td>Tulips & Chimneys</td>
+        <td class="money">$2,000.00</td>
+        <td class="money">$2,642.50</td>
+      </tr>
+      <tr class="even">
+        <td>Charles d'Orleans</td>
+        <td>Poemes</td>
+        <td class="money"></td>
+        <td class="money">$5,866.00</td>
+      </tr>
+      <tr>
+        <td>T.S. Eliot</td>
+        <td>Poems 1909 - 1925</td>
+        <td class="money">$1,250.00</td>
+        <td class="money">$8,499.35</td>
+      </tr>
+      <tr class="even">
+        <td>Sylvia Plath</td>
+        <td>The Colossus</td>
+        <td class="money"></td>
+        <td class="money">$1031.72</td>
+      </tr>
+    </table>
+
+    <!-- BORDER ON EMPTY CELL -->
+    <table class="one">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td></td>
+      </tr>
+    </table>
+    <!-- GAP BETWEEN CELLS -->
+    <table class="one">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <!------------ ALIGNING FORMS  ------------>
+
+    <form action="example.php" method="post">
+      <div>
+        <label for="name" class="title">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email" class="title">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <span class="title">Gender:</span>
+        <input type="radio" name="gender" id="male" value="M" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="F" />
+        <label for="female">Female</label><br />
+      </div>
+      <div>
+        <input type="submit" value="Register" id="submit" />
+      </div>
+    </form>
+
+    <!-- ------- CURSOR STYLES ------------ -->
+    <a href="http://www.whitmanarchive.org"> Walt Whitman</a>
+    
+  </body>
+</html>
