@@ -1,0 +1,43 @@
+/*  (Salt n Pepper NavBar) */
+body {
+    margin: 0px;
+  }
+  .header {
+    width: 100%;
+    background-color: #000;
+    height: 100px;
+    padding: 2px 50px;
+  }
+  
+  .header > div > img {
+    margin-top: 15px;
+  }
+  
+  .d-inline {
+    display: inline-block;
+  }
+  
+  .menu > li {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 40px;
+  }
+  
+  .menu-box {
+    /* height: 100%; */
+    vertical-align: bottom;
+    margin-left: 100px;
+    /* margin-bottom: 15px; */
+  }
+  
+  .btn {
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    border-radius: 35px;
+    color: #ffffff;
+    padding: 12px 13.5px 12px 13.5px;
+    font-size: 12px;
+    font-weight: 400;
+  }
