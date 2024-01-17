@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+}
+
+/* ------- DISPLAY (Flex) Only Parent ------  */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+  display: inline-block;
+} */
+
+/* ------- Flex Direction (Rows and Column) -------  */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+} */
+
+/* ------- Flex (column reverse and Rows reverse) ------  */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+} */
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+} */
+
+/* .box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 2px solid red;
+} */
+
+/* ----- Flex Wrap ------ */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 2px solid red;
+}
+
+@media only screen and (max-width: 425px) {
+  .box,
+  .box1,
+  .box {
+    width: 100%;
+  }
+} */
+
+/* ----- Justify Content and Align Items ---- */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 2px solid red;
+} */
+
+/* Flex Page Break and gap */
+
+/* .container {
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  height: 100vh;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 2px solid red;
+  flex: 1;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 2px solid red;
+  flex: 1;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 2px solid red;
+  flex: 2;
+} */
