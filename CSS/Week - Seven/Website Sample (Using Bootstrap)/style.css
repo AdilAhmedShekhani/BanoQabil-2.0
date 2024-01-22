@@ -1,0 +1,76 @@
+.my-nav {
+  background-color: #fff;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu > li {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.nav-menu a.active {
+  color: #009fe3 !important;
+}
+
+.nav-menu a {
+  color: #000;
+}
+
+.nav-search > input {
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #009fe3;
+}
+
+.nav-search > button {
+  border-radius: 20px;
+  background-color: #009fe3;
+  color: #fff;
+  padding: 0px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.nav-search > button:hover {
+  background-color: #009fe3;
+  color: #fff;
+}
+
+.main-box {
+  padding: 20px;
+}
+
+.theme-card > i {
+  font-size: 50px;
+}
+.theme-card {
+  cursor: pointer;
+}
+.theme-card:hover {
+  background-color: #009fe3;
+  color: #fff;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-menu {
+    text-align: center;
+  }
+  .nav-search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-search > input {
+    width: 100%;
+  }
+  .nav-search > button {
+    margin-top: 10px;
+    padding: 8px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
