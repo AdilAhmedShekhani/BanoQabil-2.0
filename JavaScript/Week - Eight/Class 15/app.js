@@ -14,6 +14,12 @@
 
 // console.log(userName);
 
+// == Match condition only
+// === Match condition and type both
+// !== not equal to
+// && and and (will check second condition)
+// || or or (only check one condition)
+
 // if statements (true or false)
 
 // if (true) {
@@ -98,3 +104,22 @@
 // } else {
 //   console.log("JavaScript Seekho Beta");
 // }
+
+//  Falsy Value (6 types) other than this values are true
+
+// "" Empty String ==> False
+// 0 ==> False
+// false ==> False
+// undefind ==> False
+//NaN ==> False
+// null ==> False
+
+// var userName = prompt("Enter your username") || "Not Provided";
+
+// console.log(userName);
+
+// var isAvailable = userName && "yes";
+
+// console.log(isAvailable);
+
+// console.log(userName);
