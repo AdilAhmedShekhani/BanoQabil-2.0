@@ -28,3 +28,11 @@ students[students.length] = "Ahmed";
 students[students.length] = "Ali";
 
 console.log(students);
+
+// Delete in Arrays (POP method)
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+students.pop();
+
+console.log(students);
