@@ -29,10 +29,52 @@ students[students.length] = "Ali";
 
 console.log(students);
 
-// Delete in Arrays (POP method)
+// Delete in Arrays (POP method) last one deleted
 
 var students = ["Amin", "Ahmed", "Zain"];
 
 students.pop();
 
+console.log(students);
+
+// Add in Arrays (Push method) add last one
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+students.push("abc");
+
+console.log(students);
+
+// Delete in Arrays (Shift method) first one deleted
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+students.shift();
+
+console.log(students);
+
+// Add in Arrays (Unshift method) add first one
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+students.unshift("abc");
+
+console.log(students);
+
+// Splice method (Delete and add particular value)
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+students.splice(1, 2); // target value and ending point
+students.splice(1, 2, "abc", "xyz"); // target value and ending point and add value
+
+console.log(students);
+
+// Slice method (Copy of Array)
+
+var students = ["Amin", "Ahmed", "Zain"];
+
+var copyArr = students.slice(1, 2); // target index and after this copy all
+
+console.log(copyArr);
 console.log(students);
