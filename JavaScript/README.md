@@ -1,4 +1,4 @@
-# Week 7: JavaScript Lets Start
+# JavaScript Lets Start
 
 ### Introduction to JavaScript:
 
