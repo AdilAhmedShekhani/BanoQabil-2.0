@@ -1,0 +1,34 @@
+.parent {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.parent div {
+  flex: 1;
+  background-color: lightgray;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 16px;
+}
+
+.btnparent {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btnparent button {
+  width: 250px;
+  padding: 18px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
