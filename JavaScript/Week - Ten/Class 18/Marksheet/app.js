@@ -1,4 +1,5 @@
 const totalMarks = 200;
+// Array of Objects
 const students = [
   {
     name: "Ali",
@@ -32,5 +33,5 @@ for (let index = 0; index < students.length; index++) {
   console.log("English: " + students[index].englishMarks);
   console.log("Total Marks: " + result.total);
   console.log("Percentage: " + result.percentage);
-  result.percentage >= 40 ? console.log("PASSED") : console.log("FAILED");
+  result.percentage >= 40 ? console.log("PASSED") : console.log("FAILED"); // Turnery Operators
 }
