@@ -41,18 +41,42 @@
 
 // Text Expand (See More / See Less)
 
-function expandText() {
-  var shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
-  var text =
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus sed labore tempore quaerat, cupiditate porro molestiae pariatur possimus facere cum cumque, eaque neque veritatis placeat minima nemo hic, sint explicabo!";
-  var para = document.getElementById("para");
-  var link = document.getElementById("link");
+// function expandText() {
+//   var shortText = "Lorem ipsum dolor sit amet, consectetur adipisicing elit.";
+//   var text =
+//     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus sed labore tempore quaerat, cupiditate porro molestiae pariatur possimus facere cum cumque, eaque neque veritatis placeat minima nemo hic, sint explicabo!";
+//   var para = document.getElementById("para");
+//   var link = document.getElementById("link");
 
-  if (link.innerHTML === "See more") {
-    para.innerHTML = text;
-    link.innerHTML = "See Less";
+//   if (link.innerHTML === "See more") {
+//     para.innerHTML = text;
+//     link.innerHTML = "See Less";
+//   } else {
+//     para.innerHTML = shortText;
+//     link.innerHTML = "See more";
+//   }
+// }
+
+// Promise
+
+let promise = new Promise(function (resolve, reject) {
+  const x = "adil@banoqabil.com";
+  const y = "adil@banoqabil.com";
+  if (x === y) {
+    resolve();
   } else {
-    para.innerHTML = shortText;
-    link.innerHTML = "See more";
+    reject();
   }
-}
+});
+
+promise
+  .then(function () {
+    console.log("Success, You are a Login");
+  })
+  .catch(function () {
+    console.log("Some error has occurred");
+  });
+
+
+  
+
