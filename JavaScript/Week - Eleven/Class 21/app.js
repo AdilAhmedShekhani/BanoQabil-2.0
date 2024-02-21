@@ -1,20 +1,38 @@
+// Data Destructuring (Arrays)
+
+function calculate(a, b) {
+  const add = a + b;
+  const subtract = a - b;
+  const multiply = a * b;
+  const divide = a / b;
+
+  return [add, subtract, multiply, divide];
+}
+
+const [add, subtract, multiply, divide] = calculate(4, 7);
+
+document.write("<p>Addition: " + add + "</p>");
+document.write("<p>Subtraction " + subtract + "</p>");
+document.write("<p>Multiplication: " + multiply + "</p>");
+document.write("<p>Division " + divide + "</p>");
+
 // JSON Formater Extension
 
 //Fetch Method (Get Data from API)
 
-let output = document.getElementById("output");
-function fetchData() {
-  fetch("https://dummyjson.com/products/1")
-    .then((response) => response.json())
-    .then((data) => {
-      output.innerHTML += "id = " + data.id + "<br/>";
-      output.innerHTML += "brand = " + data.brand + "<br/>";
-      output.innerHTML += "category = " + data.category + "<br/>";
-      output.innerHTML += "price = " + data.price + "<br/>";
-      output.innerHTML += "rating = " + data.rating + "<br/>";
-      output.innerHTML += "stock = " + data.stock + "<br/>";
-    });
-}
+// let output = document.getElementById("output");
+// function fetchData() {
+//   fetch("https://dummyjson.com/products/1")
+//     .then((response) => response.json())
+//     .then((data) => {
+//       output.innerHTML += "id = " + data.id + "<br/>";
+//       output.innerHTML += "brand = " + data.brand + "<br/>";
+//       output.innerHTML += "category = " + data.category + "<br/>";
+//       output.innerHTML += "price = " + data.price + "<br/>";
+//       output.innerHTML += "rating = " + data.rating + "<br/>";
+//       output.innerHTML += "stock = " + data.stock + "<br/>";
+//     });
+// }
 
 //Closures
 
